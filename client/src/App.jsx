@@ -74,10 +74,10 @@ toggleFave(poem) {
         <header>
             <h1>Poetry Book</h1>
 
-            <a className="navlinks" href="/"> Home </a>
-            <a className="navlinks" href="/login"> Login </a>
-            <a className="navlinks" href="/authors"> Authors </a>
-            <a className="navlinks" href="/profile"> Write Your Poem </a>
+            <Link to="/" className="navlinks">Home</Link>
+            <Link to="/login" className="navlinks">Login</Link>
+            <Link to="/authors" className="navlinks">Authors</Link>
+            <Link to="/profile" className="navlinks">Write Your Poem</Link>
 
 
         </header>
