@@ -50,7 +50,9 @@ export default class Login extends React.Component {
             <button className="button" type="submit" value="Submit"><Link to='/profile'>Submit</Link></button>
             </div>
             <p className="cursive1">Not a Member? &nbsp;&nbsp;
-            <a href="/register" className="navlinks">Sign Up Here! </a>
+
+            <Link to="/register" classNamw="navlinks">Sign Up Here! </Link>
+
             </p>
 
 
@@ -58,3 +60,5 @@ export default class Login extends React.Component {
     );
   }
 }
+
+ // <a href="/register" className="navlinks">Sign Up Here! </a>

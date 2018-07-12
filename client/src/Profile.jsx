@@ -13,7 +13,7 @@ class Profile extends React.Component {
     author: '',
     lines: '',
     poem_id: 0,
-    showComment: false
+    showPoem: false
   }
   this.handleChange = this.handleChange.bind(this)
   this.submitPoem = this.submitPoem.bind(this)
@@ -34,7 +34,7 @@ handleChange(e) {
 
 submitPoem(e, poem_id){
   e.preventDefault()
-  this.setState({ showComment: true })
+  this.setState({ showPoem: true })
   console.log('hitting submit')
   console.log(this.state);
   fetch(`${BASE_URL}/poems`, {
@@ -86,7 +86,7 @@ showForm() {
 
 
 render() {
-  if(this.state.showComment){
+  if(this.state.showPoem){
     // return ({this.showPoem})
     return ( <ShowPoem
               title={this.state.title}

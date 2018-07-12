@@ -10,13 +10,13 @@ class ShowPoem extends Component {
     render() {
         return (
           <div>
-            <li className="AuthorList">
+            <ul className="AuthorList">
               <div className="cursive1">
 
                   { this.props.title }
               </div>
               <div className="cursive1">
-                  { this.props.author }
+                  Written By: { this.props.author }
               </div>
               <div className="cursive1">
                   { this.props.lines }
@@ -24,7 +24,7 @@ class ShowPoem extends Component {
               <div className="cursive1">
                   { this.props.poemid }
               </div>
-            </li>
+            </ul>
           </div>
         )
     }

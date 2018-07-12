@@ -134,7 +134,7 @@ export default class Register extends React.Component {
               <button className="button" type="submit" value="Submit"><Link to='/profile'>Submit</Link></button>
             </div>
             <p className="cursive1">Already a Member? &nbsp;&nbsp;
-            <a href="/login" className="navlinks">Log In Here! </a>
+            <Link to="/login" className="navLinks">Log In Here! </Link>
             </p>
           </div>
 

@@ -9,7 +9,7 @@ function Home(props) {
       <p className="cursive">Welcome to the Poetry Book!</p>
       <p>This is where poetry, stories, and dreams come to life.</p>
       <p>This app uses a third party API:</p>
-        <a className="cursive1" href="http://poetrydb.org/index.html">PoetryDB</a>
+        <a className="cursive1" href="http://poetrydb.org/index.html" target="_blank">PoetryDB</a>
       <p> To bring these beautiful poems to you! </p>
 
        </div>

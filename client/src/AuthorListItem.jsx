@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import {Link} from 'react-router-dom';
 
 
 class AuthorListItem extends Component {
@@ -12,9 +13,10 @@ class AuthorListItem extends Component {
           <div>
             <li className="ListItem">
               <div className="cursive1">
-                <a href="/author">
+                <Link to="/author">
+
                   { this.props.author }
-                </a>
+                </Link>
               </div>
             </li>
           </div>
@@ -24,4 +26,6 @@ class AuthorListItem extends Component {
 
 export default AuthorListItem;
 
+
 // <li>{this.renderAuthors()}</li>
+// <a href="/author">

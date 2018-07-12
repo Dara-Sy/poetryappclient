@@ -9,7 +9,6 @@ import Register from './Register';
 import Profile from './Profile';
 import Poem from './Poem';
 import Author from './Author';
-import AuthorList from './AuthorList';
 import AuthorListItem from './AuthorListItem';
 import AuthorTheList from './AuthorTheList';
 import PoemListItem from './PoemListItem';
